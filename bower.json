@@ -1,0 +1,17 @@
+{
+  "name": "git-org",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.2.6",
+    "angular-resource": "1.2.6",
+    "angular-sanitize": "1.2.6",
+    "angular-route": "1.2.6",
+    "angular-animate": "1.2.6",
+    "angular-ui-router": "*",
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.6",
+    "angular-scenario": "1.2.6"
+  }
+}

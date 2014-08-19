@@ -9,14 +9,15 @@ app.controller('HomeCtrl', ['$scope', '$rootScope', function ($scope, $rootScope
 	'use strict';
 
 	$scope.map = {
-		lat: 12.9720835,
-		lon: 77.59490759999994,
-		zoom: 10
+		lat: 40.52,
+		lon: 34.34,
+		zoom: 3
 	};
 
 	navigator.geolocation.getCurrentPosition(function (location) {
 		$scope.map.lat = location.coords.latitude;
 		$scope.map.lon = location.coords.longitude;
+		$scope.map.zoom = 10;
 		$rootScope.$broadcast('mapLocationReceived');
 	});
 
